@@ -1,0 +1,48 @@
+<!--souquan.wxml-->
+<view class="">
+  <view class="souquaninfo">
+    <view class='index-search-group clearfix'>
+      <image src='/images/logo.png' style='width: 180px; height: 23px; display:block; margin:10px auto; margin-bottom:10px;'></image>
+      <view class="section">
+        <input placeholder="搜索你想要搜索的商品" auto-focus class='section-input'/>
+      </view>
+      <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="section-button-hover" class='section-button'>搜索</button>
+    </view>
+  </view>
+  <view class='souquaninfo clearfix find-quan'>
+    <view class='find-quan-hd'>
+      <text class='find-quan-title'>大家都在搜</text>
+      <navigator  class="find-next"><icon class="icon-change" hover-class="icon-change-hover"></icon> 换一换</navigator >
+    </view>
+    <view class='class_label'>
+      <navigator>睡衣</navigator>
+      <navigator>童鞋</navigator>
+      <navigator>电蚊香</navigator>
+      <navigator>女鞋</navigator>
+      <navigator>糕点</navigator>
+      <navigator>衬衫</navigator>
+      <navigator>鞋</navigator>  
+      <navigator>内衣</navigator> 
+      <navigator>哺乳文胸</navigator> 
+      <navigator>加湿器</navigator>   
+      <navigator>毛巾</navigator>  
+      <navigator>洋酒</navigator> 
+      <navigator>妈妈装</navigator> 
+      <navigator>牛仔短裤</navigator>  
+    </view>
+  </view>
+  <view class='souquaninfo clearfix find-quan'>
+    <view class='find-quan-hd'>
+      <text class='find-quan-title'>精选商品</text>
+    </view>
+    <view class="section">
+      <view class="section__title">flex-direction: row</view>
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item bc_green">1</view>
+        <view class="flex-item bc_red">2</view>
+        <view class="flex-item bc_blue">3</view>
+      </view>
+    </view>
+  </view>
+</view>
