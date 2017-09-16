@@ -4,7 +4,7 @@
     <view class='index-search-group clearfix'>
       <image src='/images/logo.png' style='width: 180px; height: 23px; display:block; margin:10px auto; margin-bottom:10px;'></image>
       <view class="section search">
-        <input placeholder="搜索你想要搜索的商品" auto-focus class='section-input'/>
+        <input placeholder="搜索你想要搜索的商品" class='section-input'/>
       </view>
       <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
         disabled="{{disabled}}" bindtap="default" hover-class="section-button-hover" class='section-button'>搜索</button>
