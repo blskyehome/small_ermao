@@ -69,7 +69,7 @@
           <text class='item-price'>128.00元</text>
         </view>
         <view class="flex-item">
-         <image src='/images/sp5.jpg'></image>
+         <image src='/images/sp7.jpg'></image>
          <text class='item-quan'>3元券</text>
           <text class='item-price'>23.00元</text>
         </view>
@@ -83,11 +83,11 @@
   </view>
   <view class='public_footer'>
     <navigator class='f_nav'>
-      <icon style='background:url(/images/f_index2.png)'></icon>
+      <icon style='background:url(/images/f_index.png)'></icon>
       <text>首页</text>
     </navigator>
     <navigator class='f_nav'>
-      <icon style='background:url(/images/f_sort2.png)'></icon>
+      <icon style='background:url(/images/f_sort.png)'></icon>
       <text>分类</text>
     </navigator>
     <navigator class='f_nav active'>
@@ -95,11 +95,11 @@
       <text>搜券通</text>
     </navigator>
     <navigator class='f_nav'>
-      <icon style='background:url(/images/f_zhibo2.png)'></icon>
+      <icon style='background:url(/images/f_zhibo.png)'></icon>
       <text>直播间</text>
     </navigator>
     <navigator class='f_nav'>
-      <icon style='background:url(/images/f_home2.png)'></icon>
+      <icon style='background:url(/images/f_home.png)'></icon>
       <text>我的</text>
     </navigator>
   </view>
