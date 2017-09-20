@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/souquan/souquan",
     "pages/index/index",
+    "pages/souquan/souquan",
     "pages/logs/logs"
   ],
   "window":{

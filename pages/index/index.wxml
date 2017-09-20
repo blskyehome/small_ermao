@@ -1,0 +1,54 @@
+<!--souquan.wxml-->
+<view class="">
+  <view class='index_header'>
+    <view class='index_logo'>
+      <image src='/images/index_logo.png'></image>
+    </view>
+    <view class='index_search'>
+      <input placeholder="好宝贝 等你搜"/>
+      <view class="group">
+        <block wx:for="{{iconType}}">
+          <icon type="{{item}}" size="40"/>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class='h-50'></view>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='index_special'>
+    <navigator class='special_box'><image></image><text></text></navigator>
+    <navigator class='special_box'><image></image><text></text></navigator>
+    <navigator class='special_box'><image></image><text></text></navigator>
+    <navigator class='special_box'><image></image><text></text></navigator>
+  </view>
+  <view class='h-50'></view>
+  <view class='public_footer'>
+    <navigator class='f_nav active' url="/pages/index/index">
+      <icon style='background:url(/images/f_index2.png)'></icon>
+      <text>首页</text>
+    </navigator>
+    <navigator class='f_nav' url="/pages/sort/sort">
+      <icon style='background:url(/images/f_sort.png)'></icon>
+      <text>分类</text>
+    </navigator>
+    <navigator class='f_nav' url="/pages/souquan/souquan">
+      <icon style='background:url(/images/f_souquan.png)'></icon>
+      <text>搜券通</text>
+    </navigator>
+    <navigator class='f_nav' url="/pages/zhibo/zhibo">
+      <icon style='background:url(/images/f_zhibo.png)'></icon>
+      <text>直播间</text>
+    </navigator>
+    <navigator class='f_nav' url="/pages/home/home">
+      <icon style='background:url(/images/f_home.png)'></icon>
+      <text>我的</text>
+    </navigator>
+  </view>
+</view>

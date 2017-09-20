@@ -82,23 +82,23 @@
     </view>
   </view>
   <view class='public_footer'>
-    <navigator class='f_nav'>
+    <navigator class='f_nav' url="/pages/index/index">
       <icon style='background:url(/images/f_index.png)'></icon>
       <text>首页</text>
     </navigator>
-    <navigator class='f_nav'>
+    <navigator class='f_nav' url="/pages/sort/sort">
       <icon style='background:url(/images/f_sort.png)'></icon>
       <text>分类</text>
     </navigator>
-    <navigator class='f_nav active'>
+    <navigator class='f_nav active' url="/pages/souquan/souquan">
       <icon style='background:url(/images/f_souquan2.png)'></icon>
       <text>搜券通</text>
     </navigator>
-    <navigator class='f_nav'>
+    <navigator class='f_nav' url="/pages/zhibo/zhibo">
       <icon style='background:url(/images/f_zhibo.png)'></icon>
       <text>直播间</text>
     </navigator>
-    <navigator class='f_nav'>
+    <navigator class='f_nav' url="/pages/home/home">
       <icon style='background:url(/images/f_home.png)'></icon>
       <text>我的</text>
     </navigator>
