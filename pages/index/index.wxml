@@ -22,16 +22,79 @@
       </swiper-item>
     </block>
   </swiper>
-  <view class='index_special'>
-    <navigator class='special_box'><image></image><text></text></navigator>
-    <navigator class='special_box'><image></image><text></text></navigator>
-    <navigator class='special_box'><image></image><text></text></navigator>
-    <navigator class='special_box'><image></image><text></text></navigator>
+  <view class='index_special clearfix'>
+    <navigator class='special_box'>
+      <image src='/images/99by.png'></image>
+      <text>9.9包邮</text>
+    </navigator>
+    <navigator class='special_box'>
+      <image src='/images/jhs.png'></image>
+      <text>聚划算</text>
+    </navigator>
+    <navigator class='special_box'>
+      <image src='/images/rqph.png'></image>
+      <text>人气排行</text>
+    </navigator>
+    <navigator class='special_box'>
+      <image src='/images/xbtj.png'></image>
+      <text>小编推荐</text>
+    </navigator>
+  </view>
+  <view class='item_info'>
+    <text class='item_hd'><icon>------</icon><text>好券直播</text><icon>------</icon></text>
+    <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+      <view id="green" class="scroll-view-item_H bc_green"></view>
+      <view id="red"  class="scroll-view-item_H bc_red"></view>
+      <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+      <view id="blue" class="scroll-view-item_H bc_blue"></view>
+    </scroll-view>
+    <view class='item_cont clearfix'>
+      <view class='item_box'>
+        <view class='item_img'>
+          <image src='/images/sp1.jpg'></image>
+        </view>
+        <view class='item_text clearfix'>
+          <view class='item_title'>60片木质儿童拼图宝宝益智力女孩积木玩具男孩周岁2-6岁</view>
+          <text class='item_price'>券后<text>￥50</text></text>
+          <text class='item_volumn'><text>30425</text>人已买</text>
+        </view>
+      </view>
+      <view class='item_box'>
+        <view class='item_img'>
+          <image src='/images/sp7.jpg'></image>
+        </view>
+        <view class='item_text clearfix'>
+          <view class='item_title'>南极人玻璃水汽车雨刷精四季通用非浓缩清洗剂冬季防冻车用雨刮水</view>
+          <text class='item_price'>券后<text>￥18.9</text></text>
+          <text class='item_volumn'><text>35</text>人已买</text>
+        </view>
+      </view>
+      <view class='item_box'>
+        <view class='item_img'>
+          <image src='/images/sp6.jpg'></image>
+        </view>
+        <view class='item_text clearfix'>
+          <view class='item_title'>南极人玻璃水汽车雨刷精四季通用非浓缩清洗剂冬季防冻车用雨刮水</view>
+          <text class='item_price'>券后<text>￥18.9</text></text>
+          <text class='item_volumn'><text>35</text>人已买</text>
+        </view>
+      </view>
+      <view class='item_box'>
+        <view class='item_img'>
+          <image src='/images/sp2.jpg'></image>
+        </view>
+        <view class='item_text clearfix'>
+          <view class='item_title'>南极人玻璃水汽车雨刷精四季通用非浓缩清洗剂冬季防冻车用雨刮水</view>
+          <text class='item_price'>券后<text>￥18.9</text></text>
+          <text class='item_volumn'><text>35</text>人已买</text>
+        </view>
+      </view>
+    </view>
   </view>
   <view class='h-50'></view>
   <view class='public_footer'>
     <navigator class='f_nav active' url="/pages/index/index">
-      <icon style='background:url(/images/f_index2.png)'></icon>
+      <icon style='background:url(/images/f_index2.png)'></icon> 
       <text>首页</text>
     </navigator>
     <navigator class='f_nav' url="/pages/sort/sort">

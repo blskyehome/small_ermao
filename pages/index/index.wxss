@@ -27,5 +27,83 @@
   height: 30px;
 }
 .index_special{
+  margin-top: 10px;
+}
+.index_special .special_box{
+  width: 25%;
+  text-align: center;
+  float: left;
+  font-size: 0.75rem;
+  color: #999;
+}
+.index_special .special_box image{
+  display: block;
+  margin: 0 auto 5px;
+  width: 50px;
+  height: 50px;
+}
+.item_info{
+  margin-top: 20px;
+}
+.item_info .item_hd{
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #fe4a65;
+}
+.item_info .item_cont{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.item_info .item_cont .item_box{
+  position: relative;
+  width: 48%;
+  border: 1px solid #dedede;
+  margin-bottom: 10px;
+}
+.item_info .item_cont .item_box:nth-child(2n+1){
+  float: left;
+}
+.item_info .item_cont .item_box:nth-child(2n){
+  float: right;
+}
+.item_info .item_cont .item_box .item_img{
   
+}
+.item_info .item_cont .item_box image{
+  width: 100%;
+  height: 170px;
+}
+.item_cont .item_box .item_text{
+  width: 100%;
+  padding: 0 5px 5px;
+  box-sizing: border-box;
+  font-size: 0.65rem;
+  word-break: break-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: #444;
+}
+.item_text .item_title{
+  line-height: 1.2rem;
+  margin-bottom: 5px
+}
+.item_text .item_price{
+  float: left;
+  color: #999;
+}
+.item_text .item_price text{
+  color: #fe4a65;
+  font-size: 0.75rem;
+}
+.item_text .item_volumn{
+  float: right;
+  color: #999;
+  margin-top: 2px;
+  font-size: 0.6rem;
+}
+.item_text .item_volumn text{
+  color: #f898b3;
+  margin-right: 2px;
 }
